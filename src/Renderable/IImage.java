@@ -1,5 +1,5 @@
 package Renderable;
 
-public interface IImage {
-    String name();
+public abstract class IImage extends Renderable {
+    String element = "image: ";
 }

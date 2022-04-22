@@ -1,5 +1,5 @@
 package Renderable;
 
-public interface IButton extends Renderable {
-    String supportedTypes();
+public abstract class IButton extends Renderable {
+    String element = "button: ";
 }

@@ -1,5 +1,6 @@
 package Renderable;
 
-public interface Renderable {
-    String supportedTypes();
+public abstract class Renderable {
+    String introOfReturn = "Supported types of ";
+    public abstract String supportedTypes();
 }
