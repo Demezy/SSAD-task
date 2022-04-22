@@ -1,8 +1,8 @@
 package Renderable;
 
-public class WindowsButton implements IButton {
+public class WindowsButton extends IButton {
     @Override
     public String supportedTypes() {
-        return "Supported button types: Windows.";
+        return introOfReturn + element + OS.WINDOWS.getTitle();
     }
 }

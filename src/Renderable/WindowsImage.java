@@ -1,8 +1,8 @@
 package Renderable;
 
-public class WindowsImage implements IImage {
+public class WindowsImage extends IImage {
     @Override
-    public String name() {
-        return "Supported image types: Windows.";
+    public String supportedTypes() {
+        return introOfReturn + element + OS.WINDOWS.getTitle();
     }
 }

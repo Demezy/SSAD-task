@@ -1,8 +1,8 @@
 package Renderable;
 
-public class AndroidButton implements IButton {
+public class AndroidButton extends IButton {
     @Override
     public String supportedTypes() {
-        return "Supported button types: Android.";
+        return introOfReturn + element + OS.ANDROID.getTitle();
     }
 }

@@ -1,5 +1,13 @@
+import Factory.AndroidFactory;
+import Renderable.IButton;
+import Renderable.IImage;
+
 class Main {
 	public static void main(String[] args) {
-		System.out.println("hello world");
+		AndroidFactory androidFactory = new AndroidFactory();
+		IButton button = androidFactory.createButton();
+		IImage image = androidFactory.createImage();
+		System.out.println(button.supportedTypes());
+		System.out.println(image.supportedTypes());
 	}
 }

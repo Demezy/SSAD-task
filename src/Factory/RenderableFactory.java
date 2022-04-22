@@ -3,7 +3,7 @@ package Factory;
 import Renderable.IButton;
 import Renderable.IImage;
 
-public interface UIFactory {
+public interface RenderableFactory {
     IButton createButton();
     IImage createImage();
 }

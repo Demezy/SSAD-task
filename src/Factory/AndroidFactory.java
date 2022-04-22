@@ -5,7 +5,7 @@ import Renderable.AndroidImage;
 import Renderable.IButton;
 import Renderable.IImage;
 
-public class AndroidFactory implements UIFactory {
+public class AndroidFactory implements RenderableFactory {
     @Override
     public IButton createButton() {
         return new AndroidButton();

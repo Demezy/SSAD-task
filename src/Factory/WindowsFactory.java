@@ -5,7 +5,7 @@ import Renderable.IImage;
 import Renderable.WindowsButton;
 import Renderable.WindowsImage;
 
-public class WindowsFactory implements UIFactory {
+public class WindowsFactory implements RenderableFactory {
     @Override
     public IButton createButton() {
         return new WindowsButton();

@@ -1,8 +1,8 @@
 package Renderable;
 
-public class AndroidImage implements IImage {
+public class AndroidImage extends IImage {
     @Override
-    public String name() {
-        return "Supported image types: Android.";
+    public String supportedTypes() {
+        return introOfReturn + element + OS.ANDROID.getTitle();
     }
 }
