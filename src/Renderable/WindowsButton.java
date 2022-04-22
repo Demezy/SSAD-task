@@ -1,4 +1,4 @@
-package Randerable;
+package Renderable;
 
 public class WindowsButton implements IButton {
     @Override

@@ -1,4 +1,4 @@
-package Randerable;
+package Renderable;
 
 public interface IImage {
     String name();

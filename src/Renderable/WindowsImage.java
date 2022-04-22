@@ -1,4 +1,4 @@
-package Randerable;
+package Renderable;
 
 public class WindowsImage implements IImage {
     @Override

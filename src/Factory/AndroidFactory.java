@@ -1,9 +1,9 @@
 package Factory;
 
-import Randerable.AndroidButton;
-import Randerable.AndroidImage;
-import Randerable.IButton;
-import Randerable.IImage;
+import Renderable.AndroidButton;
+import Renderable.AndroidImage;
+import Renderable.IButton;
+import Renderable.IImage;
 
 public class AndroidFactory implements UIFactory {
     @Override

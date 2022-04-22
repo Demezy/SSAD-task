@@ -1,4 +1,4 @@
-package Randerable;
+package Renderable;
 
 public class AndroidImage implements IImage {
     @Override

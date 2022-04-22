@@ -1,9 +1,9 @@
 package Factory;
 
-import Randerable.IButton;
-import Randerable.IImage;
-import Randerable.WindowsButton;
-import Randerable.WindowsImage;
+import Renderable.IButton;
+import Renderable.IImage;
+import Renderable.WindowsButton;
+import Renderable.WindowsImage;
 
 public class WindowsFactory implements UIFactory {
     @Override

@@ -1,7 +1,7 @@
 package Factory;
 
-import Randerable.IButton;
-import Randerable.IImage;
+import Renderable.IButton;
+import Renderable.IImage;
 
 public interface UIFactory {
     IButton createButton();
