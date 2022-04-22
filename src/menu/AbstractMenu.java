@@ -1,8 +1,6 @@
-package Menu;
+package menu;
 
-import TouchManager.iTouchManager;
-
-abstract class AbstractMenu implements iMenu {
+abstract class AbstractMenu implements IMenu {
 	@Override
 	public void close() {
 		// TODO Auto-generated method stub
@@ -10,7 +8,7 @@ abstract class AbstractMenu implements iMenu {
 	}
 
 	@Override
-	public iMenu run(iTouchManager touchManager) {
+	public IMenu run(ITouchManager touchManager) {
 		// TODO Auto-generated method stub
 		return null;
 	}
