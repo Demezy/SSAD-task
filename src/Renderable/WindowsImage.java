@@ -3,6 +3,6 @@ package Renderable;
 public class WindowsImage extends IImage {
     @Override
     public String supportedTypes() {
-        return introOfReturn + element + OS.WINDOWS.getTitle();
+        return introOfReturn + Renderable_types.IMAGE.getTitle() + OS_types.WINDOWS.getTitle() + ".";
     }
 }

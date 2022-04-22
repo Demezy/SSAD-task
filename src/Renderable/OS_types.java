@@ -1,12 +1,12 @@
 package Renderable;
 
-public enum OS {
+public enum OS_types {
     ANDROID ("Android"),
     WINDOWS ("Windows");
 
-    private String title;
+    private final String title;
 
-    OS(String title) {
+    OS_types(String title) {
         this.title = title;
     }
 
