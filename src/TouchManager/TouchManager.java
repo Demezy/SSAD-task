@@ -1,0 +1,5 @@
+package TouchManager
+
+interface iTouchManager {
+
+}
