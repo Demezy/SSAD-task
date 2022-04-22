@@ -1,6 +1,6 @@
-import Factory.AndroidFactory;
-import Renderable.IButton;
-import Renderable.IImage;
+import factory.AndroidFactory;
+import renderable.IButton;
+import renderable.IImage;
 
 class Main {
 	public static void main(String[] args) {
