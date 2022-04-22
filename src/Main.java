@@ -9,5 +9,6 @@ class Main {
 		IImage image = androidFactory.createImage();
 		System.out.println(button.supportedTypes());
 		System.out.println(image.supportedTypes());
+
 	}
 }
