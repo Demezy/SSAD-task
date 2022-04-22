@@ -1,5 +1,7 @@
 package menu;
 
+import touchmanager.ITouchManager;
+
 abstract class AbstractMenu implements IMenu {
 	@Override
 	public void close() {
