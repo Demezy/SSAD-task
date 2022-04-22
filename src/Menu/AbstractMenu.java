@@ -1,3 +1,5 @@
+package Menu;
+
 abstract class AbstractMenu implements iMenu {
 
 	@Override

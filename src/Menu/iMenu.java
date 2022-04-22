@@ -1,4 +1,4 @@
-package Renderable;
+package Menu;
 
 public interface iMenu {
 
