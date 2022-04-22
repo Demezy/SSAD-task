@@ -1,4 +1,4 @@
-package Renderable;
+package renderable;
 
 public enum OS_types {
     ANDROID ("Android"),

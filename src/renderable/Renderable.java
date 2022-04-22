@@ -1,4 +1,4 @@
-package Renderable;
+package renderable;
 
 public abstract class Renderable {
     String introOfReturn = "Supported types of ";

@@ -1,12 +1,12 @@
-package Renderable;
+package renderable;
 
-public enum Renderable_types {
+public enum RenderableTypes {
     IMAGE ("image: "),
     BUTTON ("button: ");
 
     private final String title;
 
-    Renderable_types(String title) {
+    RenderableTypes(String title) {
         this.title = title;
     }
 

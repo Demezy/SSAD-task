@@ -1,3 +1,3 @@
-package Renderable;
+package renderable;
 
 public abstract class IImage extends Renderable {}
