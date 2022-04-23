@@ -4,7 +4,7 @@ import renderable.IButton;
 import renderable.IImage;
 
 /**
- * Starting implement Abstract Factory pattern.
+ * Abstract Factory of UI Elements
  */
 public interface RenderableFactory {
 	IButton createButton();

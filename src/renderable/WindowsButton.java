@@ -1,5 +1,8 @@
 package renderable;
 
+/**
+ * Implementation of Android Button by IButton
+ */
 public class WindowsButton extends IButton {
     @Override
     public String supportedTypes() {

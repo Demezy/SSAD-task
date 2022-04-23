@@ -1,5 +1,8 @@
 package renderable;
 
+/**
+ * Implementation of Windows Image by IImage
+ */
 public class WindowsImage extends IImage {
     @Override
     public String supportedTypes() {

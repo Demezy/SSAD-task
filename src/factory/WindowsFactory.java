@@ -5,6 +5,9 @@ import renderable.IImage;
 import renderable.WindowsButton;
 import renderable.WindowsImage;
 
+/**
+ * Implementation factory for windows
+ */
 public class WindowsFactory implements RenderableFactory {
 	@Override
 	public IButton createButton() {

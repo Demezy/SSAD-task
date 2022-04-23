@@ -1,5 +1,8 @@
 package renderable;
 
+/**
+ * Enum of OS types
+ */
 public enum OS_types {
     ANDROID ("Android"),
     WINDOWS ("Windows");

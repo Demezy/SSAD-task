@@ -1,5 +1,8 @@
 package renderable;
 
+/**
+ * Enum of renderable types
+ */
 public enum RenderableTypes {
     IMAGE ("image: "),
     BUTTON ("button: ");

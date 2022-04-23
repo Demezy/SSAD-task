@@ -1,5 +1,8 @@
 package renderable;
 
+/**
+ * Implementation of Android Image by IImage
+ */
 public class AndroidImage extends IImage {
     @Override
     public String supportedTypes() {
