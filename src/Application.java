@@ -6,11 +6,14 @@ import factory.RenderableFactory;
 import factory.WindowsFactory;
 import renderable.IButton;
 import renderable.IImage;
+import touchmanager.*;
 
 class Application {
 	IMenu currMenu;
 
-	// TouchManager
+	// assuming that TM is loaded
+	ITouchManager touchManager = null;
+
 	// SpeechSynthesizer
 	public void run() {
 		// Test Android Factory.
@@ -31,9 +34,11 @@ class Application {
 
 		// test menu factory
 		MenuFactory mf = new MenuFactory();
-		IMenu menu = mf.createMenu(MenuEnum.ABOUT_MENU);
-		menu.run(null);
-		menu.close();
+		for (MenuEnum me : MenuEnum.values()) {
+			IMenu menu = mf.createMenu(me);
+			menu.run(touchManager);
+			menu.close();
+		}
 
 	}
 }
