@@ -9,7 +9,7 @@ public abstract class AbstractMenu implements IMenu {
 
 	@Override
 	public void close() {
-		System.out.println("menu " + this.getClass() + "closed");
+		System.out.println("menu " + this.getClass() + " closed");
 	}
 
 	@Override

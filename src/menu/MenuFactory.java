@@ -8,7 +8,7 @@ import menu.menulist.PhotoMenu;
 
 public class MenuFactory {
 	// factory class for menu objects
-	IMenu createMenu(MenuEnum type) {
+	public IMenu createMenu(MenuEnum type) {
 		switch (type) {
 			case LOGIN_MENU:
 				return new LoginMenu();
