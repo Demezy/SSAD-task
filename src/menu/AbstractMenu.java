@@ -1,17 +1,20 @@
 package menu;
 
+import java.util.List;
+
 import touchmanager.ITouchManager;
 
-abstract class AbstractMenu implements IMenu {
+public abstract class AbstractMenu implements IMenu {
+	public List<Readable> elements;
+
 	@Override
 	public void close() {
-		// TODO Auto-generated method stub
-
+		System.out.println("menu " + this.getClass() + "closed");
 	}
 
 	@Override
 	public IMenu run(ITouchManager touchManager) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("run " + this.getClass());
+		return this;
 	}
 }
