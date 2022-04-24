@@ -5,6 +5,9 @@ import java.util.concurrent.TimeUnit;
 
 import touchmanager.ITouchManager;
 
+/**
+ * Abstract Menu for all menu in the application.
+ */
 public abstract class AbstractMenu implements IMenu {
 	// move boilerplate code to abstract class
 	// concrete menu implements in menu.menulist package

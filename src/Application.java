@@ -8,6 +8,9 @@ import renderable.IButton;
 import renderable.IImage;
 import touchmanager.*;
 
+/**
+ * The main class of the application.
+ */
 class Application {
 	IMenu currMenu;
 

@@ -6,8 +6,10 @@ import menu.menulist.MainMenu;
 import menu.menulist.MoodMenu;
 import menu.menulist.PhotoMenu;
 
+/**
+ * Factory class for menu objects
+ */
 public class MenuFactory {
-	// factory class for menu objects
 	public IMenu createMenu(MenuEnum type) {
 		switch (type) {
 			case LOGIN_MENU:

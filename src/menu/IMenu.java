@@ -3,7 +3,7 @@ package menu;
 import touchmanager.ITouchManager;
 
 /**
- * interface of the class menu of application
+ * Interface of the class menu in the application.
  */
 public interface IMenu {
 	// basic interface for all menus

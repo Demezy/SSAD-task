@@ -1,7 +1,9 @@
 package menu;
 
+/**
+ * Enum of menus for the factory
+ */
 public enum MenuEnum {
-	// enum for factory
 	LOGIN_MENU,
 	MOOD_MENU,
 	MAIN_MENU,
