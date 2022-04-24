@@ -35,6 +35,8 @@ class Application {
 		System.out.println(button2.supportedTypes());
 		System.out.println(image2.supportedTypes());
 
+		System.out.println(); // Split tests.
+
 		// test menu factory
 		MenuFactory mf = new MenuFactory();
 		for (MenuEnum me : MenuEnum.values()) {
